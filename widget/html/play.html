@@ -602,7 +602,7 @@
 				wx.shareText({
 					apiKey: '',
 					scene: 'timeline',
-					text: '想看【' + namen + '】最新全集？快来下载【完美视界】APP，全网视频随便看，更有抢先电影观看，下载地址：'+ copy + '，邀请码：' + shama
+					text: '想看【' + namen + '】最新全集？快来下载【地鼠影视】APP，全网视频随便看，更有抢先电影观看，下载地址：'+ copy + '，邀请码：' + shama
 				}, function(ret, err) {
 					if (ret.status) {
 						alert('分享成功');
@@ -613,7 +613,7 @@
 			} else if (leix == "qq") {
 				var qq = api.require('QQPlus');
 				qq.shareText({
-					text: '想看【' + namen + '】最新全集？快来下载【完美视界】APP，全网视频随便看，更有抢先电影观看，下载地址：' + copy + '，邀请码：' + shama
+					text: '想看【' + namen + '】最新全集？快来下载【地鼠影视】APP，全网视频随便看，更有抢先电影观看，下载地址：' + copy + '，邀请码：' + shama
 				}, function(ret, err) {
 					if (ret.status) {
 						alert('分享成功');
@@ -626,7 +626,7 @@
 			} else if (leix == "fzlj") {
 				var clipBoard = api.require('clipBoard');
 				clipBoard.set({
-					value: '想看【' + namen + '】最新全集？快来下载【完美视界】APP，全网视频随便看，更有抢先电影观看，下载地址：' + copy + '，邀请码：' + shama
+					value: '想看【' + namen + '】最新全集？快来下载【地鼠影视】APP，全网视频随便看，更有抢先电影观看，下载地址：' + copy + '，邀请码：' + shama
 				}, function(ret, err) {
 					if (ret) {
 						api.toast({
